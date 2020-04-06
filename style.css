@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+h1 {
+  position: fixed;
+  top: 34%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  color: #54CDCD;
+}
+#div1 {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 1px none blue;
+  perspective: 150px;
+  top: 65%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.btn-outline-info {
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  transform: rotateX(45deg);
+}
